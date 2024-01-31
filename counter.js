@@ -2,19 +2,23 @@ const counter = {
   value: 0, // значение счетчика
 
   reset: function () {
-    //
+    return this.value = 0
+    // обнулить счетчик
   },
 
   increment: function () {
-    //
+    return this.value++
+    // увеличение на 1
   },
 
   incrementBy: function (amount) {
-    //
+    return this.value += amount
+    // увеличение на значение аргумента
   },
 
   decrement: function () {
-    // 
+    return this.value--
+    // уменьшить на единицу
   },
 
   reset: function () {
